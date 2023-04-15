@@ -1,9 +1,9 @@
 pragma solidity ^0.8.0;
 
-import "./ILendingPool.sol";
-import "./ILendingPoolAddressesProvider.sol";
-import "./IUniswapV2Router02.sol";
-import "./IERC20.sol";
+import "https://github.com/aave/protocol-v2/blob/master/contracts/interfaces/ILendingPool.sol";
+import "https://github.com/aave/protocol-v2/blob/master/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Router02.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol";
 
 contract FlashLoanArbitrage {
 
