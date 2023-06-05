@@ -59,7 +59,7 @@ contract FlashLoanArbitrage {
         usdc.approve(address(uniswapRouter), amountUSDC);
         uniswapRouter.swapExactTokensForETH(amountUSDC, 0, path, address(this), block.timestamp);
 
-        // Repay flash loan
+        // Repay Flash Loan
         dai.transfer(msg.sender, amountToRepay);
     }
 
